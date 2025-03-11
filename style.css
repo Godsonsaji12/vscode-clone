@@ -277,38 +277,38 @@ a {
   border-radius: 8px;
 }
 
-.language {
+.extension {
   margin-top: 90px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-self: center;
   align-items: center;
 }
-.language-left {
+.extension-left {
   width: 400px;
   margin-left: 150px;
 }
-.language-right {
+.extension-right {
   margin-right: 150px;
 }
 
-.language-left h3 {
+.extension-left h3 {
   font-weight: 500;
   font-size: 28px;
   color: #c3d0e5;
 }
-.language-left p {
+.extension-left p {
   margin-top: 10px;
   line-height: 25px;
   font-weight: 500;
   color: #c3d0e5;
 }
-.lang-container {
+.extension-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
-.language-card {
+.extension-card {
   display: flex;
   width: 220px;
   padding: 15px;
@@ -317,27 +317,99 @@ a {
   cursor: pointer;
 }
 
-.language-card:hover {
+.extension-card:hover {
   outline: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-.language-card .lang-title {
+.extension-card .extension-title {
   color: #c3d0e5;
   font-weight: 500;
 }
 
-.language-card .lang-description {
+.extension-card .extension-description {
   margin-top: 5px;
   color: #c3d0e5;
   font-size: 12px;
   font-weight: 500;
 }
 
-.language-card img {
+.extension img {
   width: 40px;
 }
-.lang-content {
+.extension-content {
   margin-left: 10px;
+}
+
+.language {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 80px;
+  justify-self: center;
+}
+.language-title {
+  color: #c3d0e5;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.language-description {
+  color: #c3d0e5;
+  width: 300px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.language-left {
+  margin-left: 150px;
+}
+
+.lang {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 4, 1fr;
+}
+
+.language-container {
+  display: flex;
+  align-items: center;
+  color: #c3d0e5;
+  margin-right: 160px;
+}
+
+.language-logo {
+  width: 50px;
+}
+.lang-title {
+  font-size: 14px;
+}
+
+.custom {
+  margin-top: 90px;
+}
+
+.custom-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
+  align-items: center;
+  margin-right: 140px;
+  margin-left: 140px;
+  margin-bottom: 60px;
+}
+
+.custom-title {
+  color: #c3d0e5;
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.custom-description {
+  color: #c3d0e5;
+  margin-bottom: 30px;
+  width: 400px;
+}
+.custom-image img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 1200px) {
